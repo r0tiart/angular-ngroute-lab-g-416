@@ -22,4 +22,6 @@ Add `ngRoute` to our app and then configure the route for `/user/:name`, using `
 
 Use the resolve property to fetch data from the URLs above to receive data.
 
+In our view, display the user's full name in a `<h2>` element (title, first name and last name). Display the email in a `<p>` tag.
+
 Make sure you put the view directive in the HTML!
