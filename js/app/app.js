@@ -1,7 +1,6 @@
 angular
     .module('app', ['ngRoute'])
 	.config(function ($routeProvider) {
-		console.log('hello');
 		$routeProvider
 			.when('/user/:id', {
 				templateUrl: 'views/user.html',
