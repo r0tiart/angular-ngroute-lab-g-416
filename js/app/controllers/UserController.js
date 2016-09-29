@@ -1,5 +1,6 @@
 function UserController(user) {
-	this.data = user.data;
+	var vm = this;
+	vm.user = user.data;
 }
 
 angular
