@@ -8,7 +8,7 @@
 
 ## Instructions
 
-Run `npm install` in your console to install dependencies, and then run `node server.js` to run the local web server. In another console, run `stubby -d config.yml` (this will run our mocked backend).
+Run `npm install` in your console to install dependencies, and then run `node server.js` to run the local web server. In another console, run `npm install -g stubby`, and then run `stubby -d config.yml` (this will run our mocked backend).
 
 Our mocked backend has three URLs -
 
